@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+/* Surat */
+.container {
+  width: 600px;
+  height: 750px;
+  background-image: url(../img/kertas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  padding: 50px 200px;
+  text-align: center;
+  color: #222;
+  filter: drop-shadow(0 28px 15px black);
+}
+.container .judul {
+  font-size: 28px;
+  font-style: italic;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.container .isi {
+  font-size: 1em;
+  text-align: justify;
+}
+.container .isi .ps {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
